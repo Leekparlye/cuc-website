@@ -75,27 +75,109 @@
          
      </ul>     
     </header>
-    <br>
-    <article>
+    <br> 
+      <main class="row"> 
+    <article class="ac">
       <h3>Academic Computing Services</h3>
-      <p>The Campus Information Managements System (CIMS) is the electronic respository of all data pertaining to the Division of Academic Affairs. <br>
-      The Coordinator of Academic Computing Services assists each College and each unit within the Office of Academic <br>
-      Support Services to efficiently collect and analyze data, generates the reports needed for university-wide decision-making <br>
+      <p>The Campus Information Managements System (CIMS) is the electronic respository of all data pertaining to the Division of Academic Affairs. <br><br>
+      The Coordinator of Academic Computing Services assists each College and each unit within the Office of Academic 
+      Support Services to efficiently collect and analyze data, generates the reports needed for university-wide decision-making 
       and ensures an effective electronic registration process.
     </p>
-    </article><br><br>
+    </article>
     <article>
-      <h3>Application Form</h3>
+      <h3 style="float: right; border: 2px;margin-right: 50px;font-size: 2rem;">Application Form</h3>
+
       <p>Be a part of the future,  <a href="applynow.html" title="apply now">Fill in the Application Form
+       
+        <div style="float: right;margin-top: 5px;display: flex;padding: 10px;" class="container">
+          <div class="center">
+            <div style="background: darkblue;margin-bottom: 10px;color: red;text-align: left;font-size: 3rem;" class="header">Apply Now</div>
+    
+           <form  action="/action_page.php">
+             <div class="row">
+               <div class="col-25">
+                 <label style="color: white;" for="fname">First Name:</label>
+               </div>
+               <div class="col-75">
+                 <input type="text" id="fname" name="fname" placeholder="Your name...">
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-25">   
+                <label style="color: white;" for="lname">Last Name:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lname" placeholder="Your last name...">
+              </div>
+             </div>
+             <br>
+              <div class="row">
+                <div class="col-25">
+                  <label style="color: white;" for="qualification">Qualification</label>
+                  <div class="col-75">
+                    <select name="qualification" id="qualification">
+                      <option value="c.certificate">C.Certificate</option>
+                      <option value="b.certificate">B.Certificate</option>
+                      <option value="aa.certificate">AA.Certificate</option>
+                      <option value="bachelor degree">Bachelor Degree</option>
+                      <option value="master degree">Master Degree</option>
+                      <option value="PhD">PhD Studies</option>
+                    </select>
+                  </div>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-25">
+                    <label style="color: white;" for="course">Area of Interest</label>
+                    <div class="col-75">
+                      <select name="course" id="course">
+                        <option value="theology">theology</option>
+                        <option value="publc health">Public Health</option>
+                        <option value="education">Education</option>
+                        <option value="nursing">Nursing</option>
+                        <option value="public administration">Public Administration</option>
+                        <option value="business">Business</option>
+                      </select>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-25">
+                      <label style="color: white;" for="email">Email:</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="email" id="email" name="email" placeholder="cuc@gmail.com">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-25">
+                       <label style="color: white;" for="pwd">Password</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="password" name="pwd" id="pwd" placeholder="00000">
+                      </div> 
+                    </div>
+    
+                  </div>
+             </div>
+                 
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+       
         <form action="/action.page.php">
           <legend>
             <caption>Application Form</caption>
             <label for="name"></label>
           </legend>
         </form>
-      </a>
       </p>
     </article>
+      </main>
 
 
     <div class="footer-container" > 
